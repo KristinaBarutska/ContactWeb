@@ -56,8 +56,8 @@ namespace ContactWeb
             //   consumerSecret: "");
 
             app.UseFacebookAuthentication(
-               appId: ConfigurationManager.AppSettings["AppId"], //"632707700247787",
-               appSecret: ConfigurationManager.AppSettings["AppSecret"]); // "ada52e0fae7f194809490fb17df4b040");
+               appId: ConfigurationManager.AppSettings["AppId"],
+               appSecret: ConfigurationManager.AppSettings["AppSecret"]); 
 
             //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
             //{
